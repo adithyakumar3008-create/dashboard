@@ -1,0 +1,16 @@
+body {
+  background-color: #050505;
+  color: #c5c5c5;
+  font-family: Inter, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+}
+
+.selection\\:bg-primary::selection {
+  background-color: #00f0ff;
+}
+
+.selection\\:text-black::selection {
+  color: #000;
+}
