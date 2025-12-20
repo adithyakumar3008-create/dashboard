@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="dark">
+    <div className="dark flex h-screen w-full">
       <aside className="w-20 lg:w-64 border-r border-white/5 hidden md:flex flex-col bg-[#050505] shrink-0 z-30 relative">
         <div className="absolute inset-y-0 right-0 w-[1px] bg-gradient-to-b from-transparent via-primary/30 to-transparent"></div>
         <div className="p-4 lg:p-6 pb-2 border-b border-white/5">
